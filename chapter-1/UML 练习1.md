@@ -1,7 +1,7 @@
 # 食堂就餐卡系统设计
 
 ###题
-![use_case](theme.png)
+![use_case](theme1-1.png)
 
 ### 分析确定系统的执行者
 
@@ -20,7 +20,7 @@
 
 ## 组件图
 
-![component](component.png)
+![component](component.PNG)
 
 ## 部署图
 
