@@ -4,6 +4,6 @@
 ![use_case](theme1-2.png)
 
 
-## 状态图
+## 图
 
 ![deployment](phone.png)
