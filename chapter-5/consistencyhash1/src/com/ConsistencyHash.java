@@ -1,6 +1,5 @@
-package main.java.com;
+package com;
 
-import java.util.LinkedList;
 import java.util.List;
 import java.util.SortedMap;
 import java.util.TreeMap;
