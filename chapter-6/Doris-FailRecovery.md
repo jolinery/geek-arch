@@ -7,4 +7,4 @@
 当fail Server重启后，能在 临时Server 把缺失数据补齐，达到可用状态后，上报到 Manager Server 更新装态，
 最后广播或者下发通知到各 APP Server,恢复正常读写。
 
-![use_case](Doris FailRecovery.jpg)
+![use_case](Doris-FailRecovery.jpg)
