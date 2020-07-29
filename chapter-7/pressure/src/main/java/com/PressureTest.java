@@ -87,6 +87,8 @@ public class PressureTest {
     public void testResultTime(Integer percentTime) {
         //总时长
         Long timeCount = 0L;
+        // 95时间点
+        Long time95 = 0L;
         // 95总时长
         Long timeCount95 = 0L;
         // 统计95的数量
@@ -98,11 +100,13 @@ public class PressureTest {
             if(count95 < countTime){
                 if((count95 = count95 + entry.getValue() * 1.0) >= countTime){
                     timeCount95 = timeCount;
+                    time95 = entry.getKey();
                 }
             }
 
         }
         System.out.println("平均响应时间：" + (timeCount / testLength));
+        System.out.println("95响应时间：" + time95);
         System.out.println("95平均响应时间：" + (timeCount95/countTime));
     }
 

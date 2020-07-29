@@ -8,7 +8,7 @@ package com;
  **/
 public class Main {
     public static void main(String[] args){
-        PressureTest pressureTest = new PressureTest("https://www.baidu.com",200,10);
+        PressureTest pressureTest = new PressureTest("https://www.baidu.com",20,10);
         pressureTest.testing(95);
     }
 }
