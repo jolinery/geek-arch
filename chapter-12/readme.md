@@ -10,6 +10,16 @@
 
 数据本身没价值，如果做善则造福社会，作恶则后患无穷，典型的如一些app时间杀手，搜索推荐等
 
+####题2：分析如下HiveQL，生成的MapReduce执行程序，map函数输入是什么？输出是什么， reduce函数输入是什么？输出是什么？
+INSERT OVERWRITE TABLE pv_users
+SELECT pv.pageid, u.age
+FROM page_view pv
+JOIN user u
+ON (pv.userid = u.userid);
+Page_view表和user表结构与数据
+
+解答：
+map主要用于
 
 
 
